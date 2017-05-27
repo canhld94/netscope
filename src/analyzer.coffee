@@ -208,7 +208,11 @@ module.exports =
                     #dimensions
                     d.wOut = d.wIn
                     d.hOut = d.hIn
+<<<<<<< HEAD
                     # sum up= channels from inputs
+=======
+                    # sum up channels from inputs
+>>>>>>> refs/remotes/dgschwend/gh-pages
                     d.chIn = 0
                     d.chIn += p.analysis.chOut for p in n.parents
                     d.chOut = d.chIn
